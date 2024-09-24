@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'package:meals/models/category.dart';
-import 'package:meals/models/meals.dart';
+import 'package:meals/models/meal.dart';
 
+// Constants in Dart should be written in lowerCamelcase.
 const availableCategories = [
   Category(
     id: 'c1',
